@@ -20,7 +20,9 @@ Run extract_patches.py or extract_patches.py
 Run save_patches.py or save_patches.py
 
 ### Training
+
 Run  models.py or  models.py 
+
 Run train.py or train.py
 
 ### Testing
