@@ -11,7 +11,7 @@
 DRIVE:https://drive.google.com/file/d/1mOjVt2_A1Q7LJ3_C8VEKRfoK2OwEeooy/view?usp=sharing
 CHASE:https://drive.google.com/file/d/1RnPR3hpKIHnu0e3y9DBOXKPXuiqPN8hg/view?usp=sharing
 
-### preprocessing
+### Pre-processing
 Run sy_prepare_datasets_DRIVE.py or sy_prepare_datasets_CHASE_DB1.py
 Run extract_patches.py or extract_patches.py
 Run save_patches.py or save_patches.py
