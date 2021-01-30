@@ -17,7 +17,7 @@ from PIL import Image
 from sy_pre_processing import clahe_equalized,dataset_normalized,rgb2gray,fs,pz,adjust_gamma
 
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "0,1"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 def write_hdf5(arr,outfile):
   with h5py.File(outfile,"w") as f:
     f.create_dataset("image", data=arr, dtype=arr.dtype)
