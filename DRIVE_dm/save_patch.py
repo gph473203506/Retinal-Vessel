@@ -27,7 +27,7 @@ patches_imgs_train, patches_masks_train = get_data_training(
     DRIVE_train_groudTruth    = path_data + 'DRIVE_dataset_groundTruth_train.hdf5',  #masks
     patch_height = 64,
     patch_width  = 64,
-    N_subimgs    = 84000,
+    N_subimgs    =120000,
     inside_FOV = 'True' #select the patches only inside the FOV  (default == True)
 )
 
