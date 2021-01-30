@@ -18,7 +18,7 @@ Run save_patches.py or save_patches.py
 
 ### Training
 Run  models.py or  models.py 
-Run sy_train.py or train.py
+Run train.py or train.py
 
 ### Testing
 
