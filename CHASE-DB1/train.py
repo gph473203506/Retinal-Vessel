@@ -41,7 +41,7 @@ patches_masks_train = np.einsum('klij->kijl', patches_masks_train)
 print('Patch extracted')
 
 #model = M.unet2_segment(input_size = (64,64,1))
-model = M.GCN_BR_BCDU_net_D3(input_size = (64,64,1))
+model = M.GCN_BR_RVASPP_Ghost_Mnet(input_size = (64,64,1))
 model.summary()#输出模型各层的参数状况
 
 print('Training')
