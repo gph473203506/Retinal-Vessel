@@ -104,7 +104,7 @@ else:
 best_last = 'best'
 patches_imgs_test = np.einsum('klij->kijl',patches_imgs_test)
 
-model = M.GCN_BR_BCDU_net_D3(input_size=(64,64,1))
+model = M.GCN_BR_RVASPP_Ghost_Mnet(input_size=(64,64,1))
 model.summary()
 model.load_weights('weight_lstm.hdf5')
 predictions = model.predict(patches_imgs_test,batch_size=16,verbose=1)
