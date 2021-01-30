@@ -30,9 +30,6 @@ Run train.py or train.py
 Run evaluate.py or evaluate.py
 
 
-
-
-
 @article{Guo2020SAUNetSA,
   title={Improved Multiscale U-Net Retinal Vascular Segmentation based on Spatial positional attention},
   author={Penghui Gu1 and Yan Ding2 and Fengsheng Zhou2 and Zhiyong Xiao1*},
